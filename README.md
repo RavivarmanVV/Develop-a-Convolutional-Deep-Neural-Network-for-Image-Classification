@@ -11,30 +11,22 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 ### STEP 1: 
-
-Write your own steps
+Import the required libraries (torch, torchvision, torch.nn, torch.optim) and load the image dataset with necessary preprocessing like normalization and transformation.
 
 ### STEP 2: 
-
-
+Split the dataset into training and testing sets and create DataLoader objects to feed images in batches to the CNN model.
 
 ### STEP 3: 
-
-
+Define the CNN architecture using convolutional layers, ReLU activation, max pooling layers, and fully connected layers as implemented in the CNNClassifier class.
 
 ### STEP 4: 
-
-
+Initialize the model, define the loss function (CrossEntropyLoss), and choose the optimizer (Adam) for training the network.
 
 ### STEP 5: 
-
-
+Train the model using the training dataset by performing forward pass, computing loss, backpropagation, and updating weights for multiple epochs.
 
 ### STEP 6: 
-
-
-
-
+Evaluate the trained model on test images and verify the classification accuracy for new unseen images.
 
 ## PROGRAM
 
@@ -76,17 +68,17 @@ def train_model(model, train_loader, num_epochs=3):
 
 ## Training Loss per Epoch
 
-Include the Training Loss per epoch
+<img width="342" height="163" alt="image" src="https://github.com/user-attachments/assets/0a6a3c6e-2627-4184-a989-0f745282238a" />
 
 ## Confusion Matrix
 
-Include confusion matrix here
+<img width="847" height="650" alt="image" src="https://github.com/user-attachments/assets/39c521de-62cf-4c78-9d19-1e6186ddf680" />
 
 ## Classification Report
-Include classification report here
+<img width="587" height="326" alt="image" src="https://github.com/user-attachments/assets/234e4ebe-572f-4a92-9344-cccd9ecffd95" />
 
 ### New Sample Data Prediction
-Include your sample input and output here
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/1512a25a-2d88-4b34-a223-4a1a00106165" />
 
 ## RESULT
-Include your result here
+Thus, To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images is executed and verified successfully.
